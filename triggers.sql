@@ -1,0 +1,11 @@
+USE RestaurantDB;
+
+DROP TRIGGER IF EXISTS CheckFoodPrice;
+
+CREATE TRIGGER CheckFoodPrice
+BEFORE INSERT ON Menu
+FOR EACH ROW
+SET NEW.Price = CASE
+    WHEN NEW.Price <= 0 THEN 0
+    ELSE NEW.Price
+END;

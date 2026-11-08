@@ -1,0 +1,136 @@
+
+/* Main background */
+.stApp {
+    background-color: #0B1B33;
+    color: #FFFFFF;
+}
+
+/* Main headings */
+h1, h2, h3 {
+    color: #FFFFFF !important;
+    font-weight: 700;
+}
+
+/* Main text */
+.stApp p,
+.stApp label {
+    color: #E6EDF7;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #071426;
+}
+
+[data-testid="stSidebar"] * {
+    color: #FFFFFF !important;
+}
+
+/* Metric cards */
+[data-testid="stMetric"] {
+    background-color: #142B49;
+    padding: 20px;
+    border-radius: 14px;
+    border: 1px solid #294363;
+}
+
+/* Input fields */
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea {
+    background-color: #142B49 !important;
+    color: #FFFFFF !important;
+    border: 1px solid #456080;
+}
+
+/* Dropdowns */
+[data-baseweb="select"] > div {
+    background-color: #142B49 !important;
+    color: #FFFFFF !important;
+}
+
+[data-baseweb="select"] * {
+    color: #FFFFFF !important;
+}
+
+
+/* Buttons */
+.stButton > button,
+.stFormSubmitButton > button {
+    background-color: #00B4D8;
+    color: #FFFFFF !important;
+    border: none;
+    border-radius: 9px;
+    font-weight: 700;
+    padding: 9px 18px;
+    transition: 0.3s;
+}
+
+/* Button hover */
+.stButton > button:hover,
+.stFormSubmitButton > button:hover {
+    background-color: #0077B6;
+    color: #FFFFFF !important;
+    border: none;
+}
+
+
+/* Data tables */
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+/* Sidebar navigation styling */
+[data-testid="stSidebar"] {
+    background: #071426;
+    border-right: 1px solid #294363;
+}
+
+/* Sidebar navigation options */
+[data-testid="stSidebar"] .stSelectbox label {
+    color: #00B4D8 !important;
+    font-weight: 700;
+}
+
+/* Sidebar select box */
+[data-testid="stSidebar"] [data-baseweb="select"] > div {
+    background-color: #142B49 !important;
+    border: 1px solid #00B4D8;
+    border-radius: 10px;
+}
+
+/* Sidebar select box text */
+[data-testid="stSidebar"] [data-baseweb="select"] * {
+    color: white !important;
+}
+
+
+/* Dashboard statistic cards */
+[data-testid="stMetric"] {
+    background: linear-gradient(145deg, #142B49, #1B3A5D);
+    padding: 22px;
+    border-radius: 15px;
+    border: 1px solid #315477;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Metric labels */
+[data-testid="stMetricLabel"] {
+    color: #B8C7D9 !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Metric values */
+[data-testid="stMetricValue"] {
+    color: #00B4D8 !important;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+/* Metric delta */
+[data-testid="stMetricDelta"] {
+    color: #2DD4BF !important;
+}
